@@ -8,7 +8,7 @@
 
      @TAG(NICTA_BSD)
   --><manifest>
-    <remote name="seL4" fetch="."/>
+    <remote name="seL4" fetch="../seL4"/>
 
     <remote name="SEL4PROJ" fetch="../SEL4PROJ"/>
 
