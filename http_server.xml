@@ -71,4 +71,6 @@
     <!-- global CAmkES components and interfaces -->
     <project remote="seL4-projects" name="global-components.git" path="projects/global-components" revision="9040de2baa36937830950dedde34a8b0fa13942f"/>
 
+  <project name="projects_libs.git" path="projects/projects_libs" remote="seL4-projects" revision="2c81a04b7bd3b71a9e89a01205dfc3c394b883e2"/>
+
 </manifest>
