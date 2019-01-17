@@ -39,19 +39,19 @@
     />
 
     <!-- the seL4 kernel -->
-    <project name="seL4.git" path="kernel" revision="refs/tags/10.1.1"/>
+    <project name="seL4.git" path="kernel" revision="d6b1dcf962d933e3b4409afdcc650f1c53ea3bc1"/>
 
     <!-- tools for building -->
-    <project name="seL4_tools.git" path="tools/seL4">
+    <project name="seL4_tools.git" path="tools/seL4" revision="1a55798275d672271acfbd03ed060ee862a8ce42">
       <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
       <linkfile dest="CMakeLists.txt" src="cmake-tool/default-CMakeLists.txt"/>
     </project>
 
     <!-- C library -->
-    <project name="musllibc.git" path="projects/musllibc"/>
+    <project name="musllibc.git" path="projects/musllibc" revision="seL4"/>
 
     <!-- seL4-specific libraries -->
-    <project name="seL4_libs" path="projects/seL4_libs"/>
+    <project name="seL4_libs" path="projects/seL4_libs" revision="20012244002ad7db00c0a9f91719a6d4eb7369b6"/>
 
     <!-- seL4-independent libraries -->
     <project remote="dw" name="util_libs" path="projects/util_libs" revision="imx6_ethernet"/>
@@ -60,7 +60,7 @@
     <project name="camkes-tool" path="projects/camkes-tool" revision="e2ab350348552b31203e73eef6de8d3e8ce43bfc"/>
 
     <!-- all the capDL tools and libraries -->
-    <project name="capdl.git" path="projects/capdl"/>
+    <project name="capdl.git" path="projects/capdl" revision="9a3d2cba197a1436fc504d1eda20a2fe5b4d6306"/>
 
     <!-- tool for removing excess functions from C code -->
     <project name="pruner.git" path="tools/pruner" revision="master"/>
