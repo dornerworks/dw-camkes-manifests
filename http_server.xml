@@ -63,7 +63,7 @@
     <project name="capdl.git" path="projects/capdl"/>
 
     <!-- tool for removing excess functions from C code -->
-    <project name="pruner.git" path="tools/pruner"/>
+    <project name="pruner.git" path="tools/pruner" revision="master"/>
 
     <!-- HTTP Server Application -->
     <project remote="dw" name="dw-camkes-apps" path="projects/dw-apps" revision="http_server-10.1"/>
