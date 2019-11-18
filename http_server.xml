@@ -48,7 +48,7 @@
     </project>
 
     <!-- C library -->
-    <project name="musllibc.git" path="projects/musllibc" revision="sel4"/>
+    <project name="musllibc.git" path="projects/musllibc" revision="906f33a81f4cf488354940e749aa7c0624c7b1c3"/>
 
     <!-- seL4-specific libraries -->
     <project name="seL4_libs" path="projects/seL4_libs" revision="20012244002ad7db00c0a9f91719a6d4eb7369b6"/>
